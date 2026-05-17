@@ -19,19 +19,19 @@ My Goal: Design and configure a scalable HubSpot CRM instance that professionali
 2. Solution
 To solve these challenges, I built a tailored CRM infrastructure using the following steps:
 
-  2.1 Data Cleaning & Import Strategy
-  I consolidated raw data from multiple sources into a single, clean import file and Executed a unified import mapping Contacts, Companies, and Deals simultaneously to ensure all records were automatically associated upon   import.
+2.1 Data Cleaning & Import Strategy
+I consolidated raw data from multiple sources into a single, clean import file and Executed a unified import mapping Contacts, Companies, and Deals simultaneously to ensure all records were automatically associated upon   import.
 
-  2.2 Custom SaaS Sales Pipeline
-  I replaced HubSpot's default pipeline stages with a realistic SaaS sales lifecycle:
+2.2 Custom SaaS Sales Pipeline
+I replaced HubSpot's default pipeline stages with a realistic SaaS sales lifecycle:
 
-  Demo Planned ➔ Demo Qualified ➔ Active Trial ➔ Quote Sent ➔ Closed Won / Closed Lost
+Demo Planned ➔ Demo Qualified ➔ Active Trial ➔ Quote Sent ➔ Closed Won / Closed Lost
 
-  2.3 Custom Data Architecture
-  I created a custom dropdown property (Product Plan) to track product intent right on the deal level. This allows the team to segment deals based on whether they belong to the Startup, Professional, or Enterprise package.
+2.3 Custom Data Architecture
+I created a custom dropdown property (Product Plan) to track product intent right on the deal level. This allows the team to segment deals based on whether they belong to the Startup, Professional, or Enterprise package.
 
-  2.4 Dashboard & View Optimization
-  Since the Free Tier restricts advanced card customization on the board view, I optimized the Deals List View using Edit Columns. A sales manager can now view the Deal Name, Stage, Total Amount, and the specific Product    Plan in a single glance without clicking through.
+2.4 Dashboard & View Optimization
+Since the Free Tier restricts advanced card customization on the board view, I optimized the Deals List View using Edit Columns. A sales manager can now view the Deal Name, Stage, Total Amount, and the specific Product    Plan in a single glance without clicking through.
 
 3. The Results
 Unified Customer Profiles: Every contact, company, deal history, and open task is now perfectly mapped on a single screen.
